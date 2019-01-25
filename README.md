@@ -48,4 +48,7 @@ Right now it will run spotify-this-song for "I Want it That Way,".
 Here are some examples:
 
 ![Spotify Results](https://github.com/losandluca/liri-node-app/blob/master/images/SpotifyCommand.PNG)
+
+![Spotify Results](https://github.com/losandluca/liri-node-app/blob/master/images/Movie.PNG)
+
       
