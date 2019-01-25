@@ -44,3 +44,7 @@ node liri.js do-what-it-says
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 Right now it will run spotify-this-song for "I Want it That Way,".
+
+Here are some examples:
+
+![Spotify Results](https://github.com/losandluca/liri-node-app/images/Spotify.png)
