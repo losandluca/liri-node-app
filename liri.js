@@ -90,7 +90,7 @@ function movie(movieName) {
                 if (err) throw err;
             });
             console.log("Saved!");
-            logResults(response);
+            resultsLog(response);
         } else {
             console.log("Error: " + error);
             return;
@@ -98,4 +98,25 @@ function movie(movieName) {
     });
 };
 
-commands(commandForLiri,userInput);
+function doit() {
+    fs.readFile("random.txt", "utf8", function (error, data) {
+        if (error) {
+            return console.log(error);
+        } else {
+            console.log(data);
+
+            let doitData = data.split(",");
+            commands(doitData[0], doitData[1]);
+        }
+        console.log("test" + doitData[0] + doitData[1]);
+    });
+};
+
+function resultsLog(data) {
+    fs.appendFile("log.txt", data, function (err) {
+        if (err)
+            throw err;
+    });
+};
+
+commands(commandForLiri, userInput);
