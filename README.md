@@ -49,6 +49,6 @@ Here are some examples:
 
 ![Spotify Results](https://github.com/losandluca/liri-node-app/blob/master/images/SpotifyCommand.PNG)
 
-![Spotify Results](https://github.com/losandluca/liri-node-app/blob/master/images/Movie.PNG)
+![Movie Results](https://github.com/losandluca/liri-node-app/blob/master/images/Movie.PNG)
 
       
